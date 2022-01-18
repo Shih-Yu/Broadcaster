@@ -28,6 +28,7 @@ With the following features:
   * [ ] @truffle/hdwallet-provider
   * [ ] dotenv
 * [ ] Set up and obtain key for Web3 provider(Alchemy)
+* [ ] Create dotenv file
 * [ ] Set up network configuration
 * [ ] Import Chainlink Pricefeeder contract
 * [ ] Write Broadcaster contract
@@ -41,6 +42,7 @@ With the following features:
 * [ ] npm install dependencies  
   * [ ] ethers.js
   * [ ] Livepeer sdk
+* [ ] Create dotenv file
 * [ ] Connect to Metamask
 * [ ] Get pricefeed from Chainlink
 * [ ] Display video stream
