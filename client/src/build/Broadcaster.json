@@ -17,7 +17,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -30,14 +31,16 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
       "name": "tip",
       "outputs": [],
       "stateMutability": "payable",
-      "type": "function"
+      "type": "function",
+      "payable": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.11+commit.d7f03943\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"balance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address payable\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"tip\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Broadcaster.sol\":\"Broadcaster\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Broadcaster.sol\":{\"keccak256\":\"0x87153a5ce41d3153460cb89256c9ab1d8171195d5f7c4858763e709acb659cc3\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0bde49201de3b7d4be93c75d6bb106a0626832b8d43729bc722513404e09dbf4\",\"dweb:/ipfs/QmbqVpL32jTWDAjVHqSmVPtKV1ZTcnFZVWQko7SBVNqSrU\"]}},\"version\":1}",
@@ -2610,9 +2613,17 @@
     "name": "solc",
     "version": "0.8.11+commit.d7f03943.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "4": {
+      "events": {},
+      "links": {},
+      "address": "0x42C5B8291442437a40732E63cDE72bC6323C42C0",
+      "transactionHash": "0x9bccd5541f3f17c07fa117a792d0e0454d70d0a796c7168c9d31dfdfe0ca527a"
+    }
+  },
   "schemaVersion": "3.4.3",
-  "updatedAt": "2022-01-18T22:34:31.957Z",
+  "updatedAt": "2022-01-18T22:39:29.407Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
