@@ -17,7 +17,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.11+commit.d7f03943\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"getLatestPrice\",\"outputs\":[{\"internalType\":\"int256\",\"name\":\"\",\"type\":\"int256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"constructor\":{\"notice\":\"Network: Rinkeyby Aggregator: EUR/USD Address: 0x78F9e60608bF48a1155b4B2A5e31F32318a1d85F\"},\"getLatestPrice()\":{\"notice\":\"Returns the latest price\"}},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/EURPriceFeed.sol\":\"EURPriceFeed\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol\":{\"keccak256\":\"0xf2b6c9adb3552254df1445b73563cf014434ff5e78663e9b961b6c059506ceb5\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6c1f59e0c7334c22fb54288728fc32546bdc9c8133d6db0d60223e3c28f52120\",\"dweb:/ipfs/QmeuxawUVBhMWQJXaEhhnubCTc4Jwn5wYK8gbhq6NjrpfG\"]},\"project:/contracts/EURPriceFeed.sol\":{\"keccak256\":\"0x0d6c3d029be87428bdc64886ed2ba6de9fa0b5695b87fa990cf22a419235e57f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://fc3acaba800579462e4e67746ced0070cf97fa24e0e759056f358cd120aa3921\",\"dweb:/ipfs/QmcEzdEKWM1YKPsBCwAQWD8J9E4ohnN9eKTyBMJphfzZp2\"]}},\"version\":1}",
@@ -2513,9 +2514,17 @@
     "name": "solc",
     "version": "0.8.11+commit.d7f03943.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "4": {
+      "events": {},
+      "links": {},
+      "address": "0x51656bD0400d00F2C5D561a2FF35E3Ad3bD992FD",
+      "transactionHash": "0x4b09bdef64fe9272038942d8d8b1f0ad747d4f5777f24cd70134517437bf6fbb"
+    }
+  },
   "schemaVersion": "3.4.3",
-  "updatedAt": "2022-01-18T22:38:02.224Z",
+  "updatedAt": "2022-01-18T22:40:59.919Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
