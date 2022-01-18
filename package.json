@@ -6,6 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shih-Yu/Broadcaster.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+
+"homepage": "https://github.com/Shih-Yu/Broadcaster#readme",
+  "dependencies": {
+    "@chainlink/contracts": "^0.3.0",
+    "@truffle/hdwallet-provider": "^2.0.0",
+    "dotenv": "^10.0.0"
+  }
 }
