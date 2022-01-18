@@ -19,7 +19,6 @@ With the following features:
 * [ ] Build a simple website to interact with contract
 * [ ] Test interaction to contract on website
 
-
 ## Back-end
 
 * [ ] Create project folder
@@ -41,6 +40,7 @@ With the following features:
 * [ ] npx create-react-app `client`
 * [ ] npm install dependencies  
   * [ ] ethers.js
+  * [ ] Livepeer sdk
 * [ ] Connect to Metamask
 * [ ] Get pricefeed from Chainlink
 * [ ] Display video stream
