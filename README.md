@@ -5,7 +5,7 @@ A simple webpage that can live stream
 With the following features:
 
 * Tip the streamer
-* Displays updated token prices in real tiem
+* Displays updated token prices in real time
 
 ## Objectives
 
@@ -41,8 +41,32 @@ With the following features:
 * [ ] npx create-react-app `client`
 * [ ] npm install dependencies  
   * [ ] ethers.js
-  * [ ] Livepeer sdk
+* [ ] Get JWPlayer code
 * [ ] Create dotenv file
 * [ ] Connect to Metamask
 * [ ] Get pricefeed from Chainlink
 * [ ] Display video stream
+
+## Project interaction
+
+To recreate this project
+
+* clone this on your computer in the terminal
+
+```sh
+git clone git@github.com:Shih-Yu/Broadcaster.git
+```
+
+* Then install in using npm
+
+```sh
+npm init
+```
+
+* Then start the react project
+
+```sh
+npm start
+```
+
+> Make sure you have Metamask browser extention install and setup
